@@ -16,4 +16,8 @@ public class LevelManager : MonoBehaviour {
 		Debug.Log("Going back to scene" + name);
 		Application.LoadLevel (name);
 	}
+
+	public void Quit() {
+		Application.Quit ();
+	}
 }
